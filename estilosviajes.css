@@ -1,0 +1,60 @@
+/* Estilos para el body del Blog */
+body {
+  background: url(../img/img_fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+/* Color para el header H4 */
+#h4 {
+  color: white;
+}
+
+/* Estilos para el Menu */
+.nav-menu {
+  margin-top: 20px;
+}
+
+/* Estilos para las imágenes del Blog */
+.img-central {
+  height: 800px;
+  width: 100%;
+}
+
+.img-right {
+  height: 250px;
+  width: 100%;
+}
+
+#img-card1 {
+  padding: 40px;
+  width: 100%;
+  margin-bottom: -20px;
+}
+
+/* Estilos para los párrafos y botón del card del post y comentarios */
+.parrafo {
+  text-align: justify;
+}
+
+.comentarios {
+  padding: 20px;
+  color: white;
+}
+
+#btn-comment {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/* Media Queries del blog */
+@media all and (max-width: 600px) {
+  .perfil {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}

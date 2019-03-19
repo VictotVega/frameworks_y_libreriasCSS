@@ -1,0 +1,112 @@
+/* Estilos para el Body */
+#body {
+  background-color: #ff4d4d;
+}
+
+/* Estilos para el jumbotron */
+.jumbotron {
+  background: url(../img/img1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  border-radius: 10px;
+  margin-bottom: 0px;
+}
+
+/* Estilos de los Iconos, Navbar y Botones */
+#iconos {
+  text-align: right;
+}
+
+#main-navbar {
+  background-color: hsl(204, 100%, 75%);
+}
+
+.navbar {
+  margin-top: -31px;
+  background-color: blue;
+}
+.botones {
+  width: 100%;
+}
+
+/* Estilos de las imágenes de los artículos */
+.img_article {
+  height: 380px;;
+  width: 100%;
+  padding: 0;
+}
+
+/* Estilos para los posts */
+.posts {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Estilos y parámetros para la sección de comentarios y sección principal de la página*/
+#comments {
+  min-height: 70px;
+  margin-top: 15px;
+}
+
+.img-comments {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+#main-section {
+  background-color: #ffffff;
+  margin-top: 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Media Queries para dos tamaños de pantallas */
+
+@media (max-width: 990px) {
+  #logo {
+    text-align: center;
+  }
+
+  #iconos {
+    text-align: center;
+  }
+
+ .img_article {
+   height: 85%;
+   padding: 40px;
+ }
+
+ #aside-right {
+   display: none;
+ }
+
+ .comments-area {
+   margin-top: -100px;
+ }
+}
+
+@media (max-width: 420px) {
+  #logo_1 {
+    text-align: center;
+    height: 120px;
+  }
+
+  .icono {
+    text-align: center;
+    height: 40px;
+  }
+
+ .img_article {
+   height: 85%;
+   padding: 10px;
+ }
+
+ #aside-right {
+   display: none;
+ }
+
+ .comments-area {
+   margin-top: -40px;
+ }
+}

@@ -1,0 +1,59 @@
+/* Estilos para el fondo de la página */
+body {
+  background: url(../img/img_fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+}
+
+/* Estilos para el contenido principal del blog */
+.contenido {
+  background-color: rgba(0, 0, 0, 0.45);
+  margin-bottom: 0;
+}
+
+/* Estilos para el logo y slogan de la página */
+.logo {
+  border-right: 1px solid #8080ff;
+  border-left: 1px solid #8080ff;
+}
+
+#logo_web {
+  border-radius: 50px;
+}
+
+#slogan {
+  color: white;
+}
+
+/* Estilos para el menú de navegación */
+.nav-menu {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Estilos para las imágenes del aside izquierdo */
+.img_aside {
+  height: 100px;
+}
+
+#aside {
+  background-color: #660033;
+}
+
+/* Estilos para los posts */
+.posts {
+  background-color:  #8080ff;
+}
+
+/* Estilos para los botones del blog */
+.btn-menu {
+  margin: 2px;
+}
+
+.btn_comment {
+  margin-top: -16px;
+}

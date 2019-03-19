@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!-- Fuente de íconos de Google -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Hojas de estilos de Materialize -->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/estilosviajes.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>Mis Viajes</title>
+  </head>
+  <body>
+    <div class="row">
+      <!-- Header del blog -->
+      <div class="col s12">
+        <div class="row">
+          <div class="col l3 m6 s12">
+            <img src="img/logo.png" class="responsive-img logo">
+          </div>
+          <div class="col l9 m6 s12"><!-- Menu de navegación -->
+            <div class="row right nav-menu">
+              <div class="col s12">
+                <a href="#" class="waves-effect waves-light btn"><span class="hide-on-med-and-down">INICIO</span> <i class="material-icons left">home</i></a>
+                <a href="#" class="waves-effect waves-light btn"><span class="hide-on-med-and-down">ESTUVE EN...</span> <i class="material-icons left">location_on</i></a>
+                <a href="#" class="waves-effect waves-light btn"><span class="hide-on-med-and-down">MEJORES VIAJES</span> <i class="material-icons left">star</i></a>
+                <a href="#" class="waves-effect waves-light btn"><span class="hide-on-med-and-down">RECOMENDACIONES</span> <i class="material-icons left">info</i></a>
+              </div>
+            </div>
+            <div class="row"><!-- Slogan -->
+                <div class="col s12 m12 l12">
+                  <h4 id="h4"><i>Conoce el mundo con un click!</i></h4>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <!-- Sección principal del blog / Imágenes e Íconos -->
+      <div class="l12 col">
+        <div class="row">
+            <div class="l1 col hide-on-med-and-down">
+                <a href="#"><img src="img/facebook.png" alt=""></a>
+                <a href="#"><img src="img/instagram(1).png" alt=""></a>
+                <a href="#"><img src="img/twitter.png" alt=""></a>
+                <a href="#"><img src="img/pinterest.png" alt=""></a>
+                <a href="#"><img src="img/youtube.png" alt=""></a>
+            </div>
+
+          <div class="l4 m4 s12 col">
+              <img src="img/img1.jpg" alt="" class="responsive-img">
+              <img src="img/img2.jpg" alt="" class="responsive-img">
+          </div>
+
+          <div class="l4 m4 s12 col">
+              <img src="img/img3.jpg" alt="" class="img-central">
+          </div>
+
+          <div class="l3 m4 s12 col">
+              <img src="img/img4.jpg" alt="" class="img-right">
+              <img src="img/img5.jpg" alt="" class="img-right">
+              <img src="img/img6.jpg" alt="" class="img-right">
+          </div>
+        </div>
+      </div>
+
+    <!-- Sección del primer post y el card con el perfil del autor -->
+    <div class="row">
+      <div class="l9 m9 s12 col">
+        <div class="row-content">
+          <div class="card horizontal red lighten-5">
+             <div class="card-content">
+               <div class="col l6 m12 s12">
+                 <img src="img/img8.jpg" class="responsive-img">
+               </div>
+                <div class="col l6 m12 s12">
+                   <h5>La Puerta de Brandenburgo</h5>
+                   <div class="chip">
+                     <p><i class="material-icons right">date_range</i>18 de Marzo de 2019</p>
+                   </div>
+                   <div class="chip">
+                    <p><i class="material-icons right">location_on</i>Berlín, Alemania</p>
+                   </div>
+                </div>
+                <p class="flow-text parrafo">Es un antiguo monumento construido entre los años de 1788 y 1791; el cual se encuentra en la cudad de Berlín la capital de Alemania. Se ecuentra en todo el casco central de la ciudad, específicamente en la Plaza de París y simboliza la entrada a la ciudad a modo de propileos en la época de su construcción. Su ubicación es ideal ya que se ubica al final de la Avenida "Unter den Linden" y marca el comienzo del parque "Tiergarten"; igualmente en sus alrededores se encuentran edificaciones como el Reichstag y la Potsdamer Platz.<br>
+                Es un lugar lleno de historia de la ciudad y del páis, ya que representa un símbolo nacional. Por lo que si decides visitar Berlín no dudes en pasar por este monumento ya que te encantará. Igualmente en sus alrededores puedes disfrutar de comida típica de la región, así como visitar algunas tiendas para comprar tu souvenir.</p>
+            </div>
+          </div>
+        </div>
+
+          <!-- Sección del Form 1 -->
+          <div class="row">
+            <div class="l12 m12 s12 col">
+              <div class="card light-blue darken-4 comentarios">
+                <h5>Deja tu comentario</h5>
+                <div class="row">
+                  <div class="input-field col l6 m6 s6">
+                    <i class="material-icons prefix">account_box</i>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" class="autocomplete">
+                  </div>
+                  <div class="input-field col l6 m6 s6">
+                    <i class="material-icons prefix">mail</i>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" class="autocomplete">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col l12 m12 s12">
+                    <i class="material-icons prefix">message</i>
+                    <label for="comment">Comentario</label>
+                    <br>
+                    <input type="text" id="comment" class="autocomplete">
+                  </div>
+                  <div class="row right" id="btn-comment">
+                    <div class="col l12">
+                      <a href="#" class="waves-effect waves-light btn">Enviar</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="l3 m3 s12 col">
+          <div class="card red lighten-5 center-align perfil">
+              <img src="img/img9.jpg" id="img-card1" class="circle responsive-img">
+            <div class="card-content">
+              <span class="card-title center-align">Perfil del Autor</span>
+              <hr>
+              <p class="center-align"><strong>Andrés Gutiérrez</strong> es un amante de los viajes, su principal lema es <i>"conoce lo más que puedas del mundo"</i>. Para él lo más importante es disfrutar al máximo de cada experiencia de sus viajes. Por eso nos comparte en este post sólo una parte de la experiencia vivida en Alemania, en especial la capital Berlín.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sección del segundo post y el card con el perfil de la autora -->
+        <div class="row">
+          <div class="l9 m9 s12 col">
+            <div class="row-content">
+              <div class="card horizontal red lighten-5">
+                 <div class="card-content">
+                   <div class="col l6 m12 s12">
+                     <img src="img/img10.jpg" class="responsive-img">
+                   </div>
+                    <div class="col l6 m12 s12">
+                       <h5>Machu Picchu</h5>
+                       <div class="chip">
+                         <p><i class="material-icons right">date_range</i>19 de Marzo de 2019</p>
+                       </div>
+                       <div class="chip">
+                        <p><i class="material-icons right">location_on</i>Cusco, Perú</p>
+                       </div>
+                    </div>
+                    <p class="flow-text parrafo">Definitivamente es uno de los lugares más concurridos del planeta por visitantes de todo el mundo. Se caracteriza por ser las ruinas de una de las ciudades Inca más importante de la historia. Fue construida enel siglo XV, ubicada en la Cordillera Oriental del Sur de Perú, a unos 2430 metros aproximadamente sobre el nivel del mar.No sólo es un lugar histórico sino que puedes experimentar paisajes únicos a sus alrededores;<br>
+                    Igualmente se puede sentir un ambiente que te traslada a la época de los Inca lo cual se convierte en una experiencia única en este viaje. Por ese motivo si viajas al sur del continente americano no dudes en visitar estas ruinas, no lo lamentarás!</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sección del Form 2 -->
+            <div class="row">
+              <div class="l12 m12 s12 col">
+                <div class="card light-blue darken-4 comentarios">
+                  <h5>Deja tu comentario</h5>
+                  <div class="row">
+                    <div class="input-field col l6 m6 s6">
+                      <i class="material-icons prefix">account_box</i>
+                      <label for="name">Nombre:</label>
+                      <input type="text" id="name" class="autocomplete">
+                    </div>
+                    <div class="input-field col l6 m6 s6">
+                      <i class="material-icons prefix">mail</i>
+                      <label for="email">Email:</label>
+                      <input type="text" id="email" class="autocomplete">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col l12 m12 s12">
+                      <i class="material-icons prefix">message</i>
+                      <label for="comment">Comentario</label>
+                      <br>
+                      <input type="text" id="comment" class="autocomplete">
+                    </div>
+                    <div class="row right" id="btn-comment">
+                      <div class="col l12">
+                        <a href="#" class="waves-effect waves-light btn">Enviar</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="l3 m3 s12 col">
+            <div class="card red lighten-5 center-align perfil">
+                <img src="img/img11.jpg" id="img-card1" class="circle responsive-img">
+              <div class="card-content">
+                <span class="card-title center-align">Perfil de la Autora</span>
+                <hr>
+                <p class="center-align"><strong>Anna Pimentel</strong> es una chica redactora de granes posts en el mundo de los viajes turísticos. Creadora de obras y guías turísticas en los lugares más visitados del planeta. Nacida en España y perteneciente a un grupo de viajeros que se encargan de dar toda la información que se necesita sobre los países que deseas visitar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+   <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
